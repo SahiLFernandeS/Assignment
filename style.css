@@ -295,36 +295,94 @@
     * {
         font-size: 5px;
     }
+    .section1 h1{
+        font-size: 7rem;
+    }
+    .section1-list li{
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .section1-list1 li{
+        margin-right: 1rem;
+        font-size: 1.2rem;
+    }
     .section2 h1 {
         font-size: 7rem;
         margin-right: 2rem;
-        /* color: rgb(0, 0, 0);
-        display: flex;
-        justify-content: end;
-        font-family: 'Playfair Display', serif;
-        font-weight: 800; */
     }
     .section2-list li{
         display: inline-flex;
         margin-right: 2rem;
         margin-left:1rem;
+        font-size: 1.5rem;
+    }
+    .model-box img {
+        margin-left: 2rem;
+        width: 100%;
+    }
+    
+    .model-box p{
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    
+    .model-box h3 {
+        margin-left: 2rem;
         font-size: 2rem;
-        padding-top: 50%;
+        display: inline-flex;
+        color: #000;
+    }
+    
+    .model-box b{
+        display: flex;
+        justify-content: end;
+        font-size: 2rem;
+    }
+    .viewall p {
+        margin-right: 2rem;
+        font-size: 2.5rem;
+    }
+    
+    .viewall span {
+    
+        font-size: 2.5rem;
+        color: #000;
     }
     .section3 h1 {
         font-size: 7rem;
-        margin-left: 4rem;
+        margin-left: 3rem;
         
     }
     .section3-list li{
-        display: inline-flex;
         margin-right: 1rem;
         margin-left: 1rem;
-        font-size: 2rem;
-        padding-top: 50%;
+        font-size: 1.5rem;
+    }
+    .client-cont .view3{
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    
+    .client-cont h3,h2,p,b{
+        font-size: 1.5rem;
     }
     .section4 h1{
         font-size: 7rem;
     }
-
+    .box-content h1{
+        font-size: 7rem;
+        margin-top: 2rem;
+    }
+    
+    .box-content p{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .box-content button {
+        padding: 2rem 5rem;
+        border-radius: 5rem;
+        margin-bottom: 6rem;
+        font-size: 3rem;
+    }
 }

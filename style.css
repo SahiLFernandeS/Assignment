@@ -300,11 +300,11 @@
     }
     .section1-list li{
         margin-right: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .section1-list1 li{
         margin-right: 1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .section2 h1 {
         font-size: 7rem;
@@ -340,12 +340,11 @@
     }
     .viewall p {
         margin-right: 2rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .viewall span {
-    
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #000;
     }
     .section3 h1 {
@@ -359,7 +358,7 @@
         font-size: 1.5rem;
     }
     .client-cont .view3{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-left: 1rem;
     }
     
@@ -383,6 +382,6 @@
         padding: 2rem 5rem;
         border-radius: 5rem;
         margin-bottom: 6rem;
-        font-size: 3rem;
+        font-size: 1.6rem;
     }
 }

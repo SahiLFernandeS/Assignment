@@ -1,0 +1,291 @@
+* {
+
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.logo{
+    width: 33rem;
+    height: 6.5rem;
+}
+
+.main-section{
+    margin-top: 6rem;
+    background-image: url('photo/main.png');
+    width: 100%;
+    height: 90vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo{
+    display: inline-block;
+    width: 15.0rem;
+    height: 15.0rem;
+    margin: 3rem;
+    padding: 4rem;
+    border-radius: 7.4rem;
+    box-shadow: 0px 0px 8px #888;
+}
+
+.section1{
+    margin:2rem auto;
+    background-color: rgb(27, 88, 255);
+    height: 80rem;
+}
+
+.section1 h1{
+    font-size: 14rem;
+    margin-bottom: 0px;
+    margin-left: 5rem;
+}
+
+.section-list {
+    padding-top: 20%;
+    font-weight: 600;
+}
+
+.section1-list li{
+    display: inline;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+}
+
+.section1-list{
+    margin-top: 1rem;
+    text-decoration-style: none;
+    color: #fff;
+    padding-top: 40%;
+}
+
+.hr {
+    border: solid;
+    width: 90%;
+    margin: 1rem auto;
+    height: 1rem;
+    color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 2rem;
+}
+
+.view {
+    display: inline;
+    color: #fff;
+    font-size: 3.5rem;
+    margin-left: 6rem;
+}
+
+.view span {
+    font-size: 4.5rem;
+}
+
+.section1-list1 li{
+    margin-right: 3rem;
+    font-size: 1.6rem;
+}
+
+.section1-list1{
+    list-style-type: none;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.section2 h1 {
+    font-size: 14rem;
+    margin-right: 4rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.section2-list li{
+    display: inline-flex;
+    margin-right: 4rem;
+    margin-left:2rem;
+    font-size: 3rem;
+    padding-top: 50%;
+}
+
+.section2-list{
+    margin-top: 2rem;
+    
+    text-decoration-style: none;
+    color: #000;
+}
+
+.hr1 {
+    border: solid;
+    width: 95%;
+    margin: 1rem auto;
+    height: 1rem;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 2rem;
+}
+
+.model-box img {
+    margin-left: 3rem;
+}
+
+.model-box p{
+    color: rgba(136, 136, 136, 0.8);
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.model-box h3 {
+    margin-left: 3rem;
+    font-size: 3rem;
+    display: inline-flex;
+    color: #000;
+}
+
+.model-box b{
+    display: flex;
+    justify-content: end;
+    font-size: 3rem;
+}
+
+.viewall p {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.viewall span {
+
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.section3{
+    margin:2rem auto;
+    background-color: rgb(224, 255, 237);
+    height: 100%;
+}
+
+.section3 h1 {
+    font-size: 14rem;
+    margin-left: 4rem;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.section3-list li{
+    display: inline-flex;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    padding-top: 50%;
+}
+
+.section3-list{
+    margin-top: 2rem;
+    text-decoration-style: none;
+    color: #000;
+}
+
+.client-cont .view3{
+    font-size: 3.5rem;
+    margin-left: 1rem;
+}
+
+.client-img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.client-cont h3,h2,p,b{
+    font-size: 2rem;
+}
+
+.client-cont .under {
+    text-decoration: underline;
+}
+
+.client-cont span {
+    font-size: 3rem;
+}
+
+.section4 h1{
+    display: flex;
+    justify-content: end;
+    font-size: 14rem;
+    margin-right: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.hr2 {
+    border: solid;
+    width: 90%;
+    margin: 0.1rem auto;
+    height: 0.1rem;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 2rem;
+}
+
+.section4 h2{
+    color: black;
+    margin: 1rem 4rem;
+}
+
+.section4 b {
+    font-size: 3rem;
+}
+
+.box-content {
+    margin: 4rem auto;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    box-shadow: 0px 0px 6px #888;
+    border-radius: 5rem;
+}
+
+.box-content h1{
+    color: rgb(27, 88, 255);
+    font-size: 14rem;
+    font-weight: 800;
+    margin-top: 4rem;
+}
+
+.box-content p{
+    color: #000;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+.box-content button {
+    background-color: #fff;
+    color: rgb(27, 88, 255);
+    padding: 2rem 7rem;
+    border-radius: 5rem;
+    margin-bottom: 6rem;
+    font-size: 4rem;
+}
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    color: #000;
+}

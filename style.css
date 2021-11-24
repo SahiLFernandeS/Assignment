@@ -140,6 +140,7 @@
 
 .model-box img {
     margin-left: 3rem;
+    width: 100%;
 }
 
 .model-box p{
@@ -288,4 +289,42 @@
     background-color: rgb(240, 240, 240);
     text-align: center;
     color: #000;
+}
+
+@media (max-width: 954px) {
+    * {
+        font-size: 5px;
+    }
+    .section2 h1 {
+        font-size: 7rem;
+        margin-right: 2rem;
+        /* color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: end;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800; */
+    }
+    .section2-list li{
+        display: inline-flex;
+        margin-right: 2rem;
+        margin-left:1rem;
+        font-size: 2rem;
+        padding-top: 50%;
+    }
+    .section3 h1 {
+        font-size: 7rem;
+        margin-left: 4rem;
+        
+    }
+    .section3-list li{
+        display: inline-flex;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-size: 2rem;
+        padding-top: 50%;
+    }
+    .section4 h1{
+        font-size: 7rem;
+    }
+
 }
